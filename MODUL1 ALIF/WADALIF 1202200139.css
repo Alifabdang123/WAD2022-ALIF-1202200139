@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    background; #f5f5f5f5;
+    min-height: 100vh;
+    overflow-x:hidden;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #CDFCF6;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 15px 15px rgb(0,0,0,0.05);
+}
+
+.logoead {
+    width: 100px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
+.vidio {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vidio h1 {
+    color: #444;
+    font-size: 45px;
+}
+
+.vidio p {
+    color: #444;
+    font-size: 20px;
+    margin-top: 25px;
+}
+header ul {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+header ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background:#DD5353;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: right;
+}
+
+header ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.tentangkami {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #ddecf4;
+  }
+  
+  .tentangkami h1 {
+    color: #444444;
+    font-size: 50px;
+  }
+  
+  .tentangkami .row {
+    margin-top: 30px;
+    text-align: justify;
+  }
+
+  .lokasi {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  
+  .lokasi h1 {
+    color: #444444;
+    font-size: 50px;
+  }
+  
+  .gmap_canvas {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+  }
