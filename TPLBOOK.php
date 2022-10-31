@@ -16,18 +16,18 @@
       <ul class="nav justify-content-center">
 
         <li class="nav-item ">
-            <h6 style="text-align: center;color:antiquewhite">
+            <h5 style="text-align: center;color:antiquewhite">
           <a class="nav-link active text-light" href="Home.php">
             Home
           </a>
-            </h6>
+            </h5>
         </li>
         <li class="nav-item ">
-            <h6 style="text-align: center;color:antiquewhite">
+            <h5 style="text-align: center;color:antiquewhite">
           <a class="nav-link active text-light" href="Booking.php">
             Booking
           </a>
-          </h6>
+          </h5>
         </li>
       </ul>
     </nav>
@@ -49,7 +49,7 @@
             <div class="card mb-3">
                 <div class="row g-0">
                     <div class="col-md-4">
-                    <img src="BMW.jpg"  width="200" style="margin-top: 3cm; margin-bottom:3cm; margin-left:1cm;">
+                    <img src="<?php echo $_GET['gambar']?>"  width="200" style="margin-top: 3cm; margin-bottom:3cm; margin-left:1cm;">
                     </div>
                     <div class="col-md-8">
                     <div class="container mt-5 ">

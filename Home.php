@@ -15,18 +15,18 @@
       <ul class="nav justify-content-center">
 
         <li class="nav-item ">
-            <h6 style="text-align: center;color:antiquewhite">
+            <h5 style="text-align: center;color:antiquewhite">
           <a class="nav-link active text-light" href="Home.php">
             Home
           </a>
-            </h6>
+            </h5>
         </li>
         <li class="nav-item ">
-            <h6 style="text-align: center;color:antiquewhite">
+            <h5 style="text-align: center;color:antiquewhite">
           <a class="nav-link active text-light" href="TPLBOOK.php">
             Booking
           </a>
-          </h6>
+          </h5>
         </li>
       </ul>
     </nav>
@@ -36,14 +36,14 @@
     <!-- NAVBAR END -->
 
     <!-- TITLE START -->
-    <div class = "container style="text-align: center; padding-top: 0.5cm;">
+    <div class = "container style="text-align: center; padding-top: 0.10cm;">
 
       <div class="class text-center mb-5 text-primary">
-        <h3 style="text-align:center;color:black">
+        <h3 style="text-align:center;color:#002E94">
             <b>WELCOME TO EAD RENT
             </b>
         </h3>
-        <p  style="text-align:center;color:black">
+        <p  style="text-align:center;color:#5F9DF7">
         <b>Find your the best car deal, here!
         </b> 
         </p>
@@ -54,13 +54,13 @@
       <div class="container mt-5">
         <div class="card-deck">
           <div class="card text-center" style="width: 15rem;">
-            <img src="BMW.jpg" class="card-img-top" style="height: 10rem;">
+            <img src="BMW.jpg" class="card-img-top" style="height: 15rem;">
 
             <div class="card-body" style="text-align:left">
               <h5 class="card-title">BMW E46
               </h5>
               <p>
-                  <b class="card-title">Rp 750.000 /day
+                  <b class="card-title" style="color: red">Rp 750.000 /day
                   </b>
               </p>
 
@@ -84,12 +84,12 @@
                         </b>
                     </li>
                     <li class="list-group-item">
-                    </li>
+                    </li> 
                 </div>
             </div>
 
             <div class="card-footer text-center">
-              <a href="Booking.php?type=Toyota Alphard" class="btn btn-primary form-control">
+              <a href="TPLBOOK.php?type=BMW&gambar=BMW.jpg" class="btn btn-primary form-control">
                   <b>
                   Book Now
                   </b>
@@ -100,13 +100,13 @@
           </div>
 
           <div class="card text-center" style="width: 15rem;">
-            <img src="MERCY.jpg" class="card-img-top" style="height: 10rem;">
+            <img src="MERCY.jpg" class="card-img-top" style="height: 15rem;">
             <div class="card-body" style="text-align:left">
               
             <h5 class="card-title"> 
               Mercedes Benz
             </h5>
-              <p class="card-title">
+              <p class="card-title" style="color: red">
                   <b>
                   Rp 1.200.000 /day
                   </b>
@@ -140,7 +140,7 @@
             </div>
             
             <div class="card-footer text-center">
-              <a href="Booking.php?type=Hyundai H1" class="btn btn-primary form-control">
+              <a href="TPLBOOK.php?type=MERCY&gambar=MERCY.jpg" class="btn btn-primary form-control">
                   <b>
                   Book Now
                   </b>
@@ -151,14 +151,14 @@
           </div>
             
             <div class="card text-center" style="width: 15rem;">
-            <img src="SCIROCO.jpg" class="card-img-top" style="height: 10rem;">
+            <img src="SCIROCO.jpg" class="card-img-top" style="height: 15rem;">
             <div class="card-body" style="text-align:left">
               
             <h5 class="card-title">
             Sciroco
             </h5>
 
-            <p class="card-title">
+            <p class="card-title" style="color: red">
                 <b>
                   Rp 1.500.000 /day
                 </b>
@@ -195,7 +195,7 @@
             </div>
 
             <div class="card-footer text-center">
-              <a href="Booking.php?type=Nissan GrandLivina" class="btn btn-primary form-control">
+              <a href="TPLBOOK.php?type=Sciroco&gambar=SCIROCO.jpg" class="btn btn-primary form-control">
                   <b>
                   Book Now
                   </b>

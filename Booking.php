@@ -13,18 +13,18 @@
       <ul class="nav justify-content-center">
 
         <li class="nav-item ">
-            <h6 style="text-align: center;color:antiquewhite">
+            <h5 style="text-align: center;color:antiquewhite">
           <a class="nav-link active text-light" href="Home.php">
             Home
           </a>
-            </h6>
+            </h5>
         </li>
         <li class="nav-item ">
-            <h6 style="text-align: center;color:antiquewhite">
+            <h5 style="text-align: center;color:antiquewhite">
           <a class="nav-link active text-light" href="Booking.php">
             Booking
           </a>
-          </h6>
+          </h5>
         </li>
       </ul>
     </nav>
@@ -101,8 +101,8 @@
           echo rand();
           ?></th>
       <td>Alif_1202200139</td>
-      <td>11-10-2022 10:00:00</td>
-      <td>12-10-2022 10:00:00</td>
+      <td>12-10-2022 12:00:00</td>
+      <td>13-10-2022 12:00:00</td>
       <td>BMW E46</td>
       <td>081220701885</td>
       <td>- Health protocol
@@ -119,7 +119,7 @@
 <footer class="bg-light text-center text-lg-start fixed-bottom">
   <div class="text-center p-2" style="background-color:#00ABB3">
   <h6 style="text-align: center;color:antiquewhite">
-    Created by Alif Fajar Maulana_1202200139
+    Alif Fajar Maulana_1202200139
   </div>
 </footer>
 </body>
